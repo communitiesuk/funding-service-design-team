@@ -34,13 +34,13 @@
   Funding Service Design team
 {% endblock %}
 
+
 {% block header %}
   {% include "includes/cookie-banner.html" %}
-  {# Set serviceName in config.js. #}
   {{ govukHeader({
     homepageUrl: "/",
-    serviceName: serviceName,
-    serviceUrl: "/",
+    serviceName: 'Funding Service Design team',
+    serviceUrl: "https://communitiesuk.github.io/funding-service-design-team/",
     containerClasses: "govuk-width-container",
     navigation: [
       {
