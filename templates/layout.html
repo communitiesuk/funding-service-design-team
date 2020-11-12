@@ -37,36 +37,8 @@
 
 {% block header %}
   {% include "includes/cookie-banner.html" %}
-  {{ govukHeader({
-    homepageUrl: "/",
-    serviceName: 'Funding Service Design team',
-    serviceUrl: "index.html",
-    containerClasses: "govuk-width-container",
-    navigation: [
-      {
-        href: "about.html",
-        text: "About",
-        active: false
-      },
-      {
-        href: "design-principles.html",
-        text: "Design Principles",
-        active: false
-      },
-      {
-        href: "projects.html",
-        text: "Projects",
-        active: false
-      },
-      {
-        href: "blog.html",
-        text: "Blog",
-        active: false
-      }
-    ]
-  }) }}
-{% endblock %}
 
+  {% include "includes/header-no-gov-logo.html" %}{% endblock %}
 
 {% block bodyEnd %}
   {% block scripts %}
