@@ -19,6 +19,6 @@
   "dependencies": {
     "glob": "^7.1.6",
     "govuk-frontend": "^3.9.1",
-    "nunjucks": "^3.2.2"
+    "nunjucks": "^3.2.4"
   }
 }
